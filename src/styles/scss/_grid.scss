@@ -1,0 +1,15 @@
+$appPadding: 15px;
+
+html {
+    background-color: #f8f8f8;
+}
+
+.app {
+    display: flex;
+    padding: $appPadding;
+    min-height: calc(100vh - 2 * #{$appPadding});
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
